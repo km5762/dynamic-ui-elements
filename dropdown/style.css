@@ -1,0 +1,26 @@
+.dropdown {
+  background-color: lightgray;
+  width: 200px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown .dropdown-content {
+  display: none;
+  flex-direction: column;
+}
+
+.dropdown a {
+  padding: 20px;
+  text-decoration: none;
+  font-family: "Roboto";
+}
+
+.dropdown a:visited {
+  color: black;
+}
+
+.dropdown a:hover {
+  background-color: darkgray;
+}
