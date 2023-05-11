@@ -1,0 +1,14 @@
+.image-carousel {
+  overflow: hidden;
+  width: 500px;
+}
+
+.image-carousel .slides {
+  position: relative;
+  display: flex;
+  transition: transform 200ms ease-in;
+}
+
+.image-carousel img {
+  max-width: 500px;
+}
